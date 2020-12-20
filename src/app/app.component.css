@@ -1,0 +1,50 @@
+table {
+  border-radius: 10px;
+  border-color: black;
+  vertical-align: middle; 
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+th {
+  background-color: rgb(243, 168, 168);
+  text-decoration-color: aqua;
+  text-align: center;
+}
+
+td {
+  background-color: rgb(233, 206, 206);
+  text-align: center;
+}
+
+button {
+  border: 1cm;
+  border-color: red;
+  color: rgb(201, 100, 100);
+}
+
+input {
+  justify-content: center;
+  text-align: center;
+  border-color: rgb(228, 203, 158);
+  color: black;
+}
+
+div {
+  vertical-align: middle; 
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: pink;
+  size: 30px;
+  font-stretch: extra-condensed;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: black;
+  border-spacing: 1cm;
+}

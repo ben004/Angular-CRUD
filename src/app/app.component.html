@@ -1,0 +1,22 @@
+<div>
+  <h1>My  First Angular App</h1>
+  <table>
+    <tr>
+      <th> Student Name</th>
+      <th> nameLength </th>
+    </tr>
+    <tr *ngFor="let stud of students">
+      <td> {{ stud.name }}</td>
+      <td>{{stud.nameLength}}</td>
+      <button (click)="editStuent(stud.id)">Edit</button>
+      <button (click)="deleteStudent(stud.id)">Delete</button>
+      <input type="checkbox" (change)="getStatus($event, stud.id)">
+    </tr>
+  </table>
+  <br/>
+  <input (keyup)="onKey($event)" [value]=value>
+  <button (click)="addStudent()">Add/Edit Student</button><br/><br/>
+  <button (click)="batchDelete()">Delete students</button>
+</div>
+
+<router-outlet></router-outlet>
